@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Survey Form
+    </title>
+    <link rel="stylesheet" type="text/css" href="CSS/Survey css.css" />
+</head>
+<body>
+    <h1>Survey Form</h1>
+ <form id="form" autocomplete="off">
+     <div class="form-control">
+         <label for="name" id="label-name">Name</label>
+         <input type="text" id="name" placeholder="Enter your name" />
+     </div>
+     <div class="form-control">
+         <label for="email" id="label-email">Email</label>
+         <input type="email" id="email" placeholder="Enter your email" />
+     </div>
+     <div class="form-control">
+         <label for="age" id="label-age">Age</label>
+         <input type="text" id="age" placeholder="Enter your age" />
+     </div>
+     <div class="form-control">
+         <label for="role" id="label-role">Which option best Describes you?</label>
+         <select name="role" id="role">
+             <option value=""  class="data-default">select your role</option>
+             <option value="student">Student</option>
+             <option value="intern">Intern</option>
+             <option value="professional">Professional</option>
+             <option value="other">Other</option>
+         </select>
+     </div>
+     <div class="form-control">
+         <label>Languages and Frameworks known<small>(check all that apply)</small></label>
+         <label for="inp-1"><input type="checkbox" name="inp" />C</label>
+         <label for="inp-2"><input type="checkbox" name="inp" />C++</label>
+         <label for="inp-3"><input type="checkbox" name="inp" />C#</label>
+         <label for="inp-4"><input type="checkbox" name="inp" />Java</label>
+         <label for="inp-5"><input type="checkbox" name="inp" />Python</label>
+         <label for="inp-6"><input type="checkbox" name="inp" />JavaScript</label>
+     </div>
+     <div class="form-control">
+         <label for="comment">Any Comments or Suggestions</label>
+         <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+     </div>
+     <button type ="submit" value ="submit">Submit</button>
+ </form>
+</body>
+</html>
