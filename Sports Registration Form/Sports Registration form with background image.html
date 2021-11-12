@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> 
+body
+{
+background-image: url('Sports image.jpg');
+background-repeat:no-repeat;
+background-size:100%;
+color:white;
+}
+body{ 
+  font-family: Helvetica; 
+  
+} 
+.container { 
+    padding: 10px; 
+  } 
+ 
+input[type=text], input[type=password], textarea { 
+  width: 98%; 
+  padding: 10px; 
+  margin: 10px ; 
+   color:white; 
+  border: none; 
+  background-color: hsla(0, 87%, 0%, 0.1); 
+} 
+input[type=text]:focus, input[type=password]:focus { 
+   
+  color:white;
+  } 
+div { 
+            padding: 10px ; 
+         } 
+hr { 
+  border: 1px solid #f1f1f1; 
+  margin-bottom: 25px; 
+} 
+.registerbtn { 
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 16px 20px; 
+  margin: 8px 0; 
+  border: none; 
+  cursor: pointer; 
+  width: 100%; 
+   color:white;
+  }
+    .registerbtn:hover {
+        opacity: 1;
+        background-color: lime;
+    } 
+</style> 
+</head> 
+<body> 
+<form autocomplete="off"> 
+  <div class="container"> 
+  <center>  <h1> Sports Registration Form</h1> </center> 
+  <hr> 
+  <label> First name </label>  
+<input type="text" name="firstname" placeholder= "Firstname" size="15"  required />  
+<label> Middle name: </label>  
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />  
+<label> Last name: </label>   
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />  
+</div>
+<div> 
+<label>  
+Sports : 
+</label>  
+ 
+<select> 
+<option value="Sports">Sports</option> 
+<option value="Volley Ball">Volley Ball</option> 
+<option value="Foot Ball">Foot Ball</option> 
+<option value="Cricket">Cricket</option> 
+<option value="Kabbadi">Kabbadi</option> 
+<option value="Hockey">Hockey</option> 
+<option value="Tennis">Tennis</option> 
+</select> 
+</div>
+<div>
+<label>
+	Standard:
+</label>
+<select>	
+    <option value="None">None</option>
+	<option value="District">District</option>
+	<option value="State">State</option>
+	<option value="National">National</option>
+</select>	
+</div>	
+<div> 
+<label>  
+Gender : 
+</label><br> 
+<input type="radio" value="Male" name="gender" checked > Male  
+<input type="radio" value="Female" name="gender"> Female  
+</div> 
+<label>  
+Phone : 
+</label> 
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2">  
+<input type="text" name="phone" placeholder="Mob no." size="10" required> 
+ <label>
+Current Address : 
+ </label>
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required> 
+</textarea> 
+<label for="city"><b>City</b></label> 
+<input type="text" placeholder="Enter City" name="city" required> 
+<label for="State"><b>State</b></label> 
+<input type="text" placeholder="Enter State" name="state" required> 
+<label for="email"><b>Email</b></label> 
+<input type="text" placeholder="Enter Email" name="email" required> 
+ 
+    <label for="psw"><b>Password</b></label> 
+    <input type="password" placeholder="Enter Password" name="psw" required> 
+ 
+    <label for="psw-repeat"><b>Re-type Password</b></label> 
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required> 
+    <button type="submit" class="registerbtn">Register</button>   
+</form> 
+</body> 
+</html> 

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/Scorecard1.css" type="text/css" />
+</head>
+<body>
+    <form autocomplete="off">
+        <center>
+            <table border="1" cellspacing="5">
+                <tr>
+                    <th rowspan="2">Name</th>
+                    <th colspan="5">Scores</th>
+                </tr>
+                <tr>
+                    <th>Tamil</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>C Programming</th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="name" ></td>
+                    <td><input type="number" id="tam" ></td>
+                    <td><input type="number" id="eng" ></td>
+                    <td><input type="number" id="mat" ></td>
+                    <td><input type="number" id="scs" ></td>
+                    <td><input type="number" id="cpm" ></td>
+                </tr>
+                <tr>
+                    <th colspan="6" height="40">
+                        <input type="submit" value="Add Marks" onclick="sub(event)">
+                        <input type="reset">
+                    </th>
+                </tr>
+            </table><br><br>
+            <table border="1" cellspacing="5" cellpadding="5" width="500" height="100" id="Tablescore">
+                <tr>
+                    <th>Name</th>
+                    <th>Total</th>
+                    <th>Average</th>
+                    <th>Pass or Fail</th>
+                </tr>
+            </table>
+        </center>
+    </form>
+    <script type="text/javascript" src="JS/Scorecard1.js"></script>
+</body>
+</html>
