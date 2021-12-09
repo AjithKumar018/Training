@@ -1,0 +1,6 @@
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\obj\Debug\Student Marks.csproj.CoreCompileInputs.cache
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\bin\Debug\Student Marks.exe.config
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\bin\Debug\Student Marks.exe
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\bin\Debug\Student Marks.pdb
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\obj\Debug\Student Marks.exe
+C:\temp\Repository\C-sharp\Student Marks\Student Marks\obj\Debug\Student Marks.pdb

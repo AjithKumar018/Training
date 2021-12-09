@@ -1,0 +1,6 @@
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\bin\Debug\Add Contact.exe.config
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\bin\Debug\Add Contact.exe
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\bin\Debug\Add Contact.pdb
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\obj\Debug\Add Contact.csproj.CoreCompileInputs.cache
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\obj\Debug\Add Contact.exe
+C:\temp\Repository\C-sharp\Add Contact\Add Contact\obj\Debug\Add Contact.pdb
