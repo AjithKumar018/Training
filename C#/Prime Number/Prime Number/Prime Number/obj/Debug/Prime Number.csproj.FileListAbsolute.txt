@@ -1,7 +1,0 @@
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\bin\Debug\Prime Number.exe.config
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\bin\Debug\Prime Number.exe
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\bin\Debug\Prime Number.pdb
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\obj\Debug\Prime Number.csproj.AssemblyReference.cache
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\obj\Debug\Prime Number.csproj.CoreCompileInputs.cache
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\obj\Debug\Prime Number.exe
-C:\temp\Repository\C-sharp\Prime Number\Prime Number\Prime Number\obj\Debug\Prime Number.pdb
