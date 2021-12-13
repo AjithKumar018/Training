@@ -1,0 +1,7 @@
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\bin\Debug\Convert Decimals to Roman.exe.config
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\bin\Debug\Convert Decimals to Roman.exe
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\bin\Debug\Convert Decimals to Roman.pdb
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\obj\Debug\Convert Decimals to Roman.csproj.AssemblyReference.cache
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\obj\Debug\Convert Decimals to Roman.csproj.CoreCompileInputs.cache
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\obj\Debug\Convert Decimals to Roman.exe
+C:\inetpub\wwwroot\GIT\Training Samples\AntonyAjith\Training\Convert Decimals to Roman\Convert Decimals to Roman\obj\Debug\Convert Decimals to Roman.pdb
