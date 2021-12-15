@@ -1,0 +1,7 @@
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\bin\Debug\Factorial Number.exe.config
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\bin\Debug\Factorial Number.exe
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\bin\Debug\Factorial Number.pdb
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\obj\Debug\Factorial Number.csproj.AssemblyReference.cache
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\obj\Debug\Factorial Number.csproj.CoreCompileInputs.cache
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\obj\Debug\Factorial Number.exe
+C:\Users\Ajith Kumar\Repository\C-sharp\Factorial Number\Factorial Number\obj\Debug\Factorial Number.pdb
