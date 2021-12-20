@@ -8,22 +8,20 @@ namespace Contact
 {
     public class ContactBook                                             
     {
-        public string Name                                               
-        { get; set; }
-        public long MobileNumber
-        { get; set; }
-        public string EMail
-        { get; set; }
-        public string Location
-        { get; set; }
+        public string Name { get; set; }
+        public long MobileNumber { get; set; }
+        public string EMail { get; set; }
+        public string Location { get; set; }
     }
     public class Program
     {
-        static List<ContactBook> BookList = new List<ContactBook>();     
+        static List<ContactBook> bookLists = new List<ContactBook>();     
+
         static void Main(string[] args)
         {
             Display();                                                   
         }
+
         static void Display()
         {
             Console.Write("\nChoose Your Option from:\n");
@@ -45,10 +43,10 @@ namespace Contact
                         Addcontact();
                         break;
                     case 2:
-                        Editcontact();
+                        EditContact();
                         break;
                     case 3:
-                        Viewcontact(); ;
+                        ViewContact(); ;
                         break;
                     case 4:
                         DeleteContact();
@@ -74,7 +72,7 @@ namespace Contact
 
         static void Addcontact()
         {
-            ContactBook List = new ContactBook();                         
+            ContactBook List = new ContactBook();
 
             Console.Write("\nEnter Name: ");
             List.Name = Console.ReadLine();
@@ -88,30 +86,27 @@ namespace Contact
             Console.Write("Enter Location: ");
             List.Location = Console.ReadLine();
 
-            BookList.Add(List);
+            bookLists.Add(List);
             Console.Write("\nContact Saved Successfully!...\n");
-
-            Display();
-
         }
 
-        static void Editcontact()
+        static void EditContact()
         {
             Console.Write("\nEnter the Mob No to Search: ");
-            long PhoneNumber = Convert.ToInt64(Console.ReadLine());
+            long lPhoneNumber = Convert.ToInt64(Console.ReadLine());
 
             ContactBook Cbook = new ContactBook();                        
-            bool bSavedContact = false;
-            foreach (ContactBook Contact in BookList)
+            bool bExistContact = false;
+            foreach(ContactBook contact in bookLists)
             {
-                if (Contact.MobileNumber == PhoneNumber)
+                if(contact.MobileNumber == lPhoneNumber)
                 {
-                    Cbook = Contact;
-                    bSavedContact = true;
+                    Cbook = contact;
+                    bExistContact = true;
                     break;
                 }
             }
-            if (bSavedContact)
+            if(bExistContact)
             {
                 Console.Write("\nWhich field you want to Change:");
                 Console.Write("\n1.Name");
@@ -160,16 +155,16 @@ namespace Contact
             }
         }
 
-        static void Viewcontact()
+        static void ViewContact()
         {
-            if (BookList.Count == 0)
+            if (bookLists.Count == 0)
             {
                 Console.Write("\nNo Contacts Added yet!");
             }
             else
             {
                 Console.Write("\nHere is your Contacts:");
-                foreach (ContactBook Contact in BookList)
+                foreach(ContactBook Contact in bookLists)
                 {
                     Console.Write("\n\nName: " + Contact.Name);
                     Console.Write("\nMob No: " + Contact.MobileNumber);
@@ -183,19 +178,20 @@ namespace Contact
         static void DeleteContact()
         {
             Console.Write("\nEnter Mob No to Delete Contact: ");
-            long PhoneNumber = Convert.ToInt64(Console.ReadLine());
-            bool bSavedContact = false;
+            long lphoneNumber = Convert.ToInt64(Console.ReadLine());
+            bool bExistContact = false;
 
-            foreach (ContactBook Contact in BookList)
+            foreach(ContactBook Contact in bookLists)
             {
-                if (Contact.MobileNumber == PhoneNumber)
+                if (Contact.MobileNumber == lphoneNumber)
                 {
-                    BookList.Remove(Contact);
-                    bSavedContact = true;
+                    bookLists.Remove(Contact);
+                    bExistContact = true;
                     break;
                 }
             }
-            if (bSavedContact)
+
+            if(bExistContact)
             {
                 Console.Write("\nContact Deleted Successfully!\n");
             }
@@ -208,19 +204,20 @@ namespace Contact
         static void Searchcontact()
         {
             Console.Write("\nEnter Mobile Number to Search: ");
-            long PhoneNumber = Convert.ToInt64(Console.ReadLine());
+            long lphoneNumber = Convert.ToInt64(Console.ReadLine());
 
             ContactBook Cbook = null;                        
 
-            foreach (ContactBook Contact in BookList)
+            foreach(ContactBook Contact in bookLists)
             {
-                if (Contact.MobileNumber == PhoneNumber)
+                if(Contact.MobileNumber == lphoneNumber)
                 {
                     Cbook = Contact;
                     break;
                 }
             }
-            if (Cbook != null)
+
+            if(Cbook != null)
             {
                 Console.Write("\nName: " + Cbook.Name);
                 Console.Write("\nNumber: " + Cbook.MobileNumber);
