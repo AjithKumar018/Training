@@ -32,39 +32,46 @@ namespace Contact
             Console.Write("\n5.Search Contacts.");
             Console.Write("\n6.Exit.");
 
-            Console.Write("\n\nYour option is: ");
-            int nOption = Convert.ToInt32(Console.ReadLine());
-
-            if (nOption > 0)
+            try
             {
-                switch (nOption)
+                Console.Write("\n\nYour option is: ");
+                int nOption;
+                bool bOption = int.TryParse(Console.ReadLine(), out nOption);
+                if (nOption > 0)
                 {
-                    case 1:
-                        Addcontact();
-                        break;
-                    case 2:
-                        EditContact();
-                        break;
-                    case 3:
-                        ViewContact(); ;
-                        break;
-                    case 4:
-                        DeleteContact();
-                        break;
-                    case 5:
-                        Searchcontact();
-                        break;
-                    case 6:
-                        Console.Write("Thank You!\n");
-                        return;
-                    default:
-                        Console.Write("Invalid Input!");
-                        break;
+                    switch (nOption)
+                    {
+                        case 1:
+                            Addcontact();
+                            break;
+                        case 2:
+                            EditContact();
+                            break;
+                        case 3:
+                            ViewContact(); ;
+                            break;
+                        case 4:
+                            DeleteContact();
+                            break;
+                        case 5:
+                            Searchcontact();
+                            break;
+                        case 6:
+                            Console.Write("Thank You!\n");
+                            return;
+                        default:
+                            Console.Write("\nEnter a Valid Number!\n");
+                            break;
+                    }
+                }
+                else
+                {
+                    Console.Write("\nEnter a Valid Number!\n");
                 }
             }
-            else
+            catch (Exception err)
             {
-                Console.Write("Invalid Input!");
+                Console.Write("\n" + err.Message + "\n");               
             }
 
             Display();
@@ -159,7 +166,7 @@ namespace Contact
         {
             if (bookLists.Count == 0)
             {
-                Console.Write("\nNo Contacts Added yet!");
+                Console.Write("\nNo Contacts Added yet!\n");
             }
             else
             {
